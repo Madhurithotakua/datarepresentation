@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask App</title>
+    <style>
+        body {
+            background-image: url("https://tse1.mm.bing.net/th?id=OIP.8n74yw6ZeGlbcNY4-vaJxgHaE8&pid=Api&P=0&h=180");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Data Representation using Flask App</h1>
+    </center>
+    <ul>
+        <li><a href="{{ url_for('form') }}">Form(Enter data)</a></li>
+        <li><a href="{{ url_for('line_graph') }}">Represent data using line graph</a></li>
+        <li><a href="{{ url_for('scatter_plot') }}">Represent data using Scatter Plot</a></li>
+        <li><a href="{{ url_for('bar_chart') }}">Represet data usind Barchart</a></li>
+        <li><a href="{{ url_for('pie_chart') }}">Represent data using piechart</a></li>
+    </ul>
+</body>
+</html>
+
